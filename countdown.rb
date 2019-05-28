@@ -1,14 +1,14 @@
-integer = 10
+number = 10
 
 def countdown(integer)
   
-  while integer >= 1
-    puts "#{integer} SECOND(S)!"
-    integer -= 1
+  while number >= 1
+    puts "#{number} SECOND(S)!"
+    number -= 1
   end
   
-  while integer == 0
+  while number == 0
     puts "HAPPY NEW YEAR!"
-    integer -= 1
+    number -= 1
   end
 end
