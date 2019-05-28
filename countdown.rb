@@ -1,4 +1,4 @@
-  = 10
+ integer = 10
 
 def countdown(integer)
   
